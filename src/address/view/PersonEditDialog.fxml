@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="address.view.PersonEditDialogController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="pane" stylesheets="@theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="address.view.PersonEditDialogController">
    <children>
       <GridPane AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="5.0">
         <columnConstraints>
@@ -34,14 +34,14 @@
             <TextField fx:id="numField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
             <TextField fx:id="num2Field" GridPane.columnIndex="1" GridPane.rowIndex="6" />
             <TextField fx:id="mailField" prefHeight="26.0" prefWidth="237.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
-            <Label text="Nom" />
-            <Label text="Prénom" GridPane.rowIndex="1" />
-            <Label text="Adresse" GridPane.rowIndex="2" />
-            <Label text="Code Postal" GridPane.rowIndex="3" />
-            <Label text="Ville" GridPane.rowIndex="4" />
-            <Label text="Téléphone" GridPane.rowIndex="5" />
-            <Label text="Téléphone Bis" GridPane.rowIndex="6" />
-            <Label text="E-mail" GridPane.rowIndex="7" />
+            <Label styleClass="label-bright" text="Nom" />
+            <Label styleClass="label-bright" text="Prénom" GridPane.rowIndex="1" />
+            <Label styleClass="label-bright" text="Adresse" GridPane.rowIndex="2" />
+            <Label styleClass="label-bright" text="Code Postal" GridPane.rowIndex="3" />
+            <Label styleClass="label-bright" text="Ville" GridPane.rowIndex="4" />
+            <Label styleClass="label-bright" text="Téléphone" GridPane.rowIndex="5" />
+            <Label styleClass="label-bright" text="Téléphone Bis" GridPane.rowIndex="6" />
+            <Label styleClass="label-bright" text="E-mail" GridPane.rowIndex="7" />
          </children>
       </GridPane>
       <Button defaultButton="true" layoutX="418.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleOk" text="Valider" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="150.0" />

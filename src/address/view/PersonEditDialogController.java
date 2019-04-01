@@ -125,17 +125,17 @@ public class PersonEditDialogController {
         String errorMessage = "";
 
         if (nomField.getText() == null || nomField.getText().length() == 0) {
-            errorMessage += "No valid first name!\n";
+            errorMessage += "Nom invalide!\n";
         }
         if (prenomField.getText() == null || prenomField.getText().length() == 0) {
-            errorMessage += "No valid last name!\n";
+            errorMessage += "Prénom invalide!\n";
         }
         if (adresseField.getText() == null || adresseField.getText().length() == 0) {
-            errorMessage += "No valid street!\n";
+            errorMessage += "Adresse invalide!\n";
         }
 
         if (codePostalField.getText() == null || codePostalField.getText().length() == 0) {
-            errorMessage += "No valid postal code!\n";
+            errorMessage += "Code postal invalide!\n";
         } /* else {
             // try to parse the postal code into an int.
             try {
@@ -146,19 +146,19 @@ public class PersonEditDialogController {
         } */
 
         if (villeField.getText() == null || villeField.getText().length() == 0) {
-            errorMessage += "No valid city!\n";
+            errorMessage += "Ville invalide!\n";
         }
         
         if (numField.getText() == null || numField.getText().length() == 0) {
-            errorMessage += "No valid num!\n";
+            errorMessage += "Téléphone invalide!\n";
         }
         
         if (num2Field.getText() == null || num2Field.getText().length() == 0) {
-            errorMessage += "No valid num2!\n";
+            errorMessage += "Télephone Bis invalide!\n";
         }
         
         if (mailField.getText() == null || mailField.getText().length() == 0) {
-            errorMessage += "No valid mail!\n";
+            errorMessage += "E-mail invalide!\n";
         }
 
         
