@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons>
+    <person>
+        <adresse>rue du chien</adresse>
+        <codePostal>31000</codePostal>
+        <mail>toto@mail.fr</mail>
+        <nom>Hans</nom>
+        <num>0562653585</num>
+        <num2>0662653599</num2>
+        <prenom>Muster</prenom>
+        <ville>Tls</ville>
+    </person>
+    <person>
+        <adresse>rue du canard</adresse>
+        <codePostal>32700</codePostal>
+        <mail>toto@mail.fr</mail>
+        <nom>Ruth</nom>
+        <num>0562653585</num>
+        <num2>0662653599</num2>
+        <prenom>Mueller</prenom>
+        <ville>Lectoure</ville>
+    </person>
+    <person>
+        <adresse>rue du cheval</adresse>
+        <codePostal>45000</codePostal>
+        <mail>toto@mail.fr</mail>
+        <nom>Heinz</nom>
+        <num>0562653585</num>
+        <num2>0662653599</num2>
+        <prenom>Kurz</prenom>
+        <ville>Orléans</ville>
+    </person>
+    <person>
+        <adresse>rue du chat</adresse>
+        <codePostal>32000</codePostal>
+        <mail>toto@mail.fr</mail>
+        <nom>Cornelia</nom>
+        <num>0562653585</num>
+        <num2>0662653599</num2>
+        <prenom>Meier</prenom>
+        <ville>Auch</ville>
+    </person>
+    <person>
+        <adresse>rue du chat</adresse>
+        <codePostal>32000</codePostal>
+        <mail>toto@mail.fr</mail>
+        <nom>Werner</nom>
+        <num>0562653585</num>
+        <num2>0662653599</num2>
+        <prenom>Meyer</prenom>
+        <ville>Auch</ville>
+    </person>
+    <person>
+        <adresse>rue du chat</adresse>
+        <codePostal>32000</codePostal>
+        <mail>toto@mail.fr</mail>
+        <nom>Lynda</nom>
+        <num>0562653585</num>
+        <num2>0662653599</num2>
+        <prenom>Kunz</prenom>
+        <ville>Auch</ville>
+    </person>
+    <person>
+        <adresse>rue du chat</adresse>
+        <codePostal>32000</codePostal>
+        <mail>toto@mail.fr</mail>
+        <nom>Anna</nom>
+        <num>0562653585</num>
+        <num2>0662653599</num2>
+        <prenom>Best</prenom>
+        <ville>Auch</ville>
+    </person>
+    <person>
+        <adresse>rue du chat</adresse>
+        <codePostal>32000</codePostal>
+        <mail>toto@mail.fr</mail>
+        <nom>Stefan</nom>
+        <num>0562653585</num>
+        <num2>0662653599</num2>
+        <prenom>Meier</prenom>
+        <ville>Auch</ville>
+    </person>
+    <person>
+        <adresse>rue du chat</adresse>
+        <codePostal>32000</codePostal>
+        <mail>toto@mail.fr</mail>
+        <nom>Martin</nom>
+        <num>0562653585</num>
+        <num2>0662653599</num2>
+        <prenom>Mueller</prenom>
+        <ville>Auch</ville>
+    </person>
+    <person>
+        <adresse>rue berwick</adresse>
+        <codePostal>32000</codePostal>
+        <mail>ayden@mail.fr</mail>
+        <nom>Van loo</nom>
+        <num>0145896325</num>
+        <num2>0632587412</num2>
+        <prenom>Ayden</prenom>
+        <ville>Auch</ville>
+    </person>
+</persons>

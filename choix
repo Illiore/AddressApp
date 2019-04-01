@@ -1,0 +1,12 @@
+Pk enregistrer sous xml et pas en bdd ?
+	Pq nous enregistrons des objets et qu'il est long d'attribuer un type à un objet dans le but de l'enregistrer dans une bdd relationnel. 
+
+
+Comment ça fonctionne ?
+Voyons maintenant comment tout cela s’articule :
+
+L’application et démarrée en utilisant la méthode main(...) de MainApp.
+Le constructor public MainApp() est appelé et ajoute quelques données test.
+La méthode start(...) de MainApp est appelée est appelle initRootLayout() pour initialiser le layout racine de RootLayout.fxml. Le fichier fxml a l’information pour faire correspondre le contrôleur et lie l’affichage à son RootLayoutController.
+La MainApp reçoit le RootLayoutController du chargeur fxml et passe une référence à elle-même au contrôleur. Avec cette référence, le contrôleur peut accéder plus tard aux méthodes (publiques) de MainApp.
+À la fin de la méthode initRootLayout() nous essayons d’obtenir des Preferences le dernier fichier de personne ouvert. Si les Preferences ont connaissance d’un tel fichier XML, nous chargerons les données depuis ce fichier XML. Visiblement, cela écrasera les données test du constructeur.
